@@ -18,3 +18,10 @@ not ("testing" == "testing" and "Zed" == "Cool Guy")
 1 == 1 and (not ("testing" == 1 or 1 == 0))
 "chunky" == "bacon" and (notr (3 == 4 or 3 ==3))
 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+
+# != not equal
+# == equality operator
+# <= less than or equal to
+# >= greater than or equal to
+# < less than
+# > greater than
