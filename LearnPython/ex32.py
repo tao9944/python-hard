@@ -12,7 +12,7 @@ for fruit in fruits:
 
 # also we can go through mixed lists too
 # notice we have to use {} since we don't know what's in it
-for in in change:
+for i in change:
     print(f"I got {i}")
 
 # we can also build lists, first start with an empty one
