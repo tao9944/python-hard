@@ -1,8 +1,8 @@
 i = 0
 numbers = []
 # create a function to replace the while loop below
-def new_while_loop(stop):
-    for i in range(stop):
+def new_while_loop(stop, step):
+    for i in range(0, stop, step):
         print(f"At the top i is {i}")
         numbers.append(i)
         print("Numbers now: ", numbers)
@@ -16,7 +16,7 @@ def new_while_loop(stop):
   #print("Numbers now: ", numbers)
   #print(f"At the bottom i is {i}")
 
-new_while_loop(6)
+new_while_loop(6, 2)
 
 print("The numbers: ")
 
