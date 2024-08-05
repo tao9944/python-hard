@@ -12,8 +12,11 @@ def gold_room():
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
         exit(0)
+    elif how_much < 500:
+        print("Ok, I guess that's enough with inflation. Big family?")
+        exit(0)
     else:
-        dead("You greedy bastard!")
+        dead("You greedy bastard! There's more to life than gold.")
 
 
 def bear_room():
@@ -34,6 +37,10 @@ def bear_room():
             bear_moved = True
         elif choice == "taunt bear" and bear_moved:
             dead("The bear gets pissed off and chews your leg off.")
+        elif choice == "tickle bear":
+            print("The bear is laughing and rolls out of the way.")
+            bear_moved = True
+            gold_room()
         elif choice == "open door" and bear_moved:
             gold_room()
         else:
