@@ -7,7 +7,7 @@ def story():
     # Where should this go?
     print("Which direction do you choose?")
 
-def menu():
+def menu(room):
     print("Input a direction to move in that direction.")
     print("Input 1 to look around.")
     print("Input 2 to open something.")
@@ -15,8 +15,12 @@ def menu():
     print("Input 4 to view your inventory.")
     print("Input 5 to use and item.")
     choice = int(input("> "))
-    # check to see if input is a number
-    print(f"The user chose ", choice)
+    # check to see if input is a number/handle non-number inputs
+    action(choice, room)
+
+def action(option, room):
+    print(f"You are on the {room} and chose {option}")
+
 story()
 
 # Should this be in the instructions?
@@ -24,4 +28,4 @@ print("As you enbark on this new quest, your goal is to find you way.")
 print("Feel free to explore each place completely and discover your destiny.")
 print("In each spot you may look around, open, check your bag, take and use items.")
 
-menu()
+menu("path")
