@@ -28,22 +28,36 @@ def puzzle():
     puzzle_number = round(random() * 5, 0)
     if puzzle_number == 0:
         # display a number puzzle
-        print("What number is 3 larger than sum of 6 and 8 multiplied by 4?")
+        print("A clerk at the butcher shop is six feet tall and wears size 10 shoes. What does he weight?")
         choice = int(input("> "))
-        if choice == 59:
+        if choice == "Meat" or choice == "meat":
             print("You are correct. How would you like to proceed?")
             points += 5
         else:
             print("Sorry that's not correct.")
     elif puzzle_number == 1:
         # display a word puzzle
+        print("It's as light as a feather, but the strongest person can't hold it for five minutes. What is it?")
+        choice = (input("> ")
+        if choice == 'Breath' or choice == "breath":
+            print("You are correct. How would you like to proceed?")
+            points += 5
+        else:
+            print("Sorry that's not correct.")
     elif puzzle_number == 2:
         # display a logic puzzle
+        print("Which is heavier, a pound of feathers or a pound of rocks?")
+        choice = (input("> ")
+        if choice == 'neither' or choice == "Neither":
+            print("You are correct. How would you like to proceed?")
+            points += 5
+        else:
+            print("Sorry that's not correct.")
     elif puzzle_number == 3:
         # display a number puzzle
-        print("What number is 7 smaller than sum of 45 and 31 divided by 2?")
+        print("When Ashley was 15, her mother was 37. Now her mother is twice her age. How old is Ashley?")
         choice = int(input("> "))
-        if choice == 31:
+        if choice == 22:
             print("You are correct. How would you like to proceed?")
             points += 5
         else:
