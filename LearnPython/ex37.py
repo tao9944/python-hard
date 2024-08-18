@@ -49,3 +49,37 @@ elif name == "Sam":
     print("Hi, Sam!")
 else:
     print("Hi,", name)
+
+# exception handling
+#try:
+#    number = int(input("Give me a number: "))
+#    print("Thank you!")
+#except:
+#    print("That wasn't a number.")
+
+# run a string as python
+exec('print("hello")')
+
+# do this no matter what
+try:
+    number = int(input("Give me a number: "))
+    print("Thank you!")
+except:
+    print("That wasn't a number.")
+finally:
+    print("The code has completed.")
+
+# loop over a collection
+sports = ['tennis', 'football', 'baseball']
+print("The sports are: ")
+for x in sports:
+    print(x)
+
+# import a function from a module
+#import spell_check from custom
+
+# declare a global variable
+foo = 25
+
+if True:
+    print(f"The value of foo is {foo}")
