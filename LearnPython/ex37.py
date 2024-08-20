@@ -60,7 +60,7 @@ else:
 # run a string as python
 exec('print("hello")')
 
-# do this no matter what
+# do this no matter what/try this block
 try:
     number = int(input("Give me a number: "))
     print("Thank you!")
@@ -80,6 +80,52 @@ for x in sports:
 
 # declare a global variable
 foo = 25
-
 if True:
     print(f"The value of foo is {foo}")
+
+# conditional branch
+day = "Monday"
+if day == "Monday":
+    print("Back to work or school!")
+
+# import module
+import random
+
+# part of for-loops
+for x in range(3):
+    print("The number is", x)
+
+# anonymous function
+x = lambda a, b, c : a + b + c
+print("The total is",x(5,8,13))
+
+# logical not
+if not day == "Tuesday":
+    print("It's another work day.")
+
+# logical or
+if day == 'Wednesday' or day == 'Monday':
+    print("Exxxxceeellent!")
+
+# empty block
+def empty():
+    pass
+
+# print this
+print("Print this string.")
+
+# raise an exception
+#raise ValueError("No")
+
+# return this value from the function
+def return_name():
+    name = input("What's your name? ")
+    return name
+print("Hello,", return_name())
+
+# start a while loop
+while True:
+    num = int(input("Please type the number 4: "))
+    if num == 4:
+        print("Thank you!")
+        break
