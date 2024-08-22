@@ -129,3 +129,44 @@ while True:
     if num == 4:
         print("Thank you!")
         break
+
+# True
+0 == 0
+True or False == True
+
+# False
+1 == 0
+False and False == True
+
+# None
+y = None
+if y == None:
+    print("Y equals", y)
+
+# Bytes
+y = b"Goodbye!"
+x = b"34"
+
+# Strings
+name = "Pete"
+sport = "hockey"
+weather = "It's going to be bright and sunny today."
+
+# Numbers
+y = 102232
+x = 23
+answer = 43
+
+# Floats
+y = 2.102
+x = 14.982
+length = 25.3492
+
+# Lists
+months = ["January","February", "March"]
+sizes = [7,8,9,10,11]
+to_do = ["do taxes","take test","go to movie"]
+
+# Dicts
+vocab = {1:'chide',2:'children',3:'Chicago'}
+passwords = {'google':'password','usa today':'letmein','amazon':'primemember'}
