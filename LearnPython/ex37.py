@@ -170,3 +170,7 @@ to_do = ["do taxes","take test","go to movie"]
 # Dicts
 vocab = {1:'chide',2:'children',3:'Chicago'}
 passwords = {'google':'password','usa today':'letmein','amazon':'primemember'}
+
+# String escapes
+print("""This is a test, 1//2 It\'s \"easy\" \a
+\n\f\t when you learn the string escape ropes.\v \b""")
