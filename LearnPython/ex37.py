@@ -174,3 +174,13 @@ passwords = {'google':'password','usa today':'letmein','amazon':'primemember'}
 # String escapes
 print("""This is a test, 1//2 It\'s \"easy\" \a
 \n\f\t when you learn the string escape ropes.\v \b""")
+
+# operators
+num = (1 + 3 - 2) * (6 - 2) / (1 + 2)
+num2 = num // 4
+num3 = num2 % 2
+num4 = num3 ** 2
+num += 5
+num2 -= 1
+num3 *= 4
+num4 /= 2
