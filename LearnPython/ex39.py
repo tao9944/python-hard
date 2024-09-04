@@ -59,3 +59,23 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print(f"The city for the state 'TX' is: {city}")
+
+# examples of dictionaries of England
+regions = {
+    'London': 'LD',
+    'East Midlands': 'EM',
+    'West Midlands': 'WM',
+    "South East": 'SE'
+}
+counties = {
+    'LD': 'Greater London',
+    'EM': 'Derbyshire',
+    'WM': 'Herefordshire',
+    'SE': 'Oxfordshire'
+}
+
+print('-' * 10)
+for regions, abbrev in list(regions.items()):
+    print(f"{regions} region is abbreviated {abbrev}")
+    print(f"and has county {counties[abbrev]},")
+    print(f" Which sounds like a nice place to visit.")
