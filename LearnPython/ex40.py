@@ -2,6 +2,7 @@ class Song(object):
 
     def __init__(self, lyrics):
         self.lyrics = lyrics
+        self.new_words = "On top of old smokey, all covered in cheese"
 
     def sing_me_a_song(self):
         for line in self.lyrics:
@@ -23,4 +24,7 @@ bulls_on_parade.sing_me_a_song()
 
 ode_to_joy.sing_me_a_song()
 
-new_words = "On top of old smokey, all covered in cheese"
+words = Song(["Are you sleeping",
+                "Brother John"])
+words.sing_me_a_song()
+print(words.new_words)
