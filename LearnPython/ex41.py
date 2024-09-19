@@ -17,7 +17,7 @@ PHRASES = {
     "***.***(@@@)":
         "From *** get the *** function, call it with params self, @@@.",
     "***.*** = '***'*":
-        "From *** get the *** atribute and set it to '***'."
+        "From *** get the *** attribute and set it to '***'."
 }
 
 # do they want to drill phrases first
