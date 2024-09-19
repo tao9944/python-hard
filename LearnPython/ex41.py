@@ -21,7 +21,7 @@ PHRASES = {
 }
 
 # do they want to drill phrases first
-if len(sys.argv) == 2 and sys.argve[1] == 'english':
+if len(sys.argv) == 2 and sys.argv[1] == 'english':
     PHRASE_FIRST = True
 else:
     PHRASE_FIRST = False
@@ -32,7 +32,7 @@ for word in urlopen(WORD_URL).readlines():
 
 
 def convert(snippet, phrase):
-    class_names = [w.caitalize() for w if __name__ == '__main__':
+    class_names = [w.capitalize() for w in
         random.sample(WORDS, snippet.count("%%%"))]
     other_names = random.sample(WORDS, snippet.count("***"))
     results = []
